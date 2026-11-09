@@ -1,0 +1,8 @@
+# Base official n8n image
+FROM n8nio/n8n:latest
+
+# Expose standard n8n port
+EXPOSE 5678
+
+USER node
+
